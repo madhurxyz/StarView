@@ -19,4 +19,5 @@ for i in 0..<stars {
     let subViewFrame = CGRect(x: xVal, y: 0.0, width: subViewSize.width, height: subViewSize.height)
     xVal += subViewSize.width
     let subViewLabel = UILabel(frame: subViewFrame)
+    subViewLabel.textAlignment = .center
 }
