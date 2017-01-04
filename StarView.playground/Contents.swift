@@ -7,3 +7,5 @@ let unselectedStar = "\u{2606}"
 
 var stars = 10
 var height: CGFloat = 25.0
+
+var xVal: CGFloat = 0
