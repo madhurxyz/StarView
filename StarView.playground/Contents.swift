@@ -15,6 +15,6 @@ let view = UIView(frame: frame)
 view.backgroundColor = .white
 
 for i in 0..<stars {
-
+    let subViewSize = CGSize(width: 25.0, height: height)
 
 }
