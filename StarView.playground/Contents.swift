@@ -20,4 +20,5 @@ for i in 0..<stars {
     xVal += subViewSize.width
     let subViewLabel = UILabel(frame: subViewFrame)
     subViewLabel.textAlignment = .center
+    subViewLabel.text = unselectedStar
 }
