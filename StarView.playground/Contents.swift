@@ -16,5 +16,5 @@ view.backgroundColor = .white
 
 for i in 0..<stars {
     let subViewSize = CGSize(width: view.frame.width/CGFloat(stars), height: view.frame.height)
-    let subViewFrame = CGRect(x: 0.0, y: 0.0, width: 25.0, height: height)
+    let subViewFrame = CGRect(x: xVal, y: 0.0, width: subViewSize.width, height: subViewSize.height)
 }
