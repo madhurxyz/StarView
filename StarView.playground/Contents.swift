@@ -13,3 +13,8 @@ var xVal: CGFloat = 0
 let frame = CGRect(x: 0.0, y: 0.0, width: CGFloat(stars) * height, height: height)
 let view = UIView(frame: frame)
 view.backgroundColor = .white
+
+for i in 0..<stars {
+
+
+}
