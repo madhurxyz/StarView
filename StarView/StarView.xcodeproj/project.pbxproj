@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E04E74091E1E1542002A3207 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E74081E1E1542002A3207 /* StarView.swift */; };
+		E04E740B1E1E158D002A3207 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E740A1E1E158D002A3207 /* StarView.swift */; };
 		E09F56B31DAEB5F300B0ADAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F56B21DAEB5F300B0ADAA /* AppDelegate.swift */; };
 		E09F56B51DAEB5F300B0ADAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F56B41DAEB5F300B0ADAA /* ViewController.swift */; };
 		E09F56B81DAEB5F300B0ADAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F56B61DAEB5F300B0ADAA /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E04E74081E1E1542002A3207 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		E04E740A1E1E158D002A3207 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 		E09F56AF1DAEB5F300B0ADAA /* StarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F56B21DAEB5F300B0ADAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E09F56B41DAEB5F300B0ADAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +58,6 @@
 		E09F56B11DAEB5F300B0ADAA /* StarView */ = {
 			isa = PBXGroup;
 			children = (
-				E04E74081E1E1542002A3207 /* StarView.swift */,
 				E09F56B21DAEB5F300B0ADAA /* AppDelegate.swift */,
 				E09F56B41DAEB5F300B0ADAA /* ViewController.swift */,
 				E09F56B61DAEB5F300B0ADAA /* Main.storyboard */,
@@ -66,6 +65,7 @@
 				E09F56BE1DAEB5F300B0ADAA /* LaunchScreen.storyboard */,
 				E09F56C11DAEB5F300B0ADAA /* Info.plist */,
 				E09F56B91DAEB5F300B0ADAA /* StarView.xcdatamodeld */,
+				E04E740A1E1E158D002A3207 /* StarView.swift */,
 			);
 			path = StarView;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			files = (
 				E09F56BB1DAEB5F300B0ADAA /* StarView.xcdatamodeld in Sources */,
 				E09F56B51DAEB5F300B0ADAA /* ViewController.swift in Sources */,
-				E04E74091E1E1542002A3207 /* StarView.swift in Sources */,
+				E04E740B1E1E158D002A3207 /* StarView.swift in Sources */,
 				E09F56B31DAEB5F300B0ADAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
