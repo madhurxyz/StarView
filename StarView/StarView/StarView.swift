@@ -33,7 +33,7 @@ class StarView: UIView {
         super.init(frame: self.starFrame)
         backgroundColor = .white
         for _ in 0..<stars {
-            
+            let subViewSize = CGSize(width: self.starFrame.width/CGFloat(stars), height: self.starFrame.height)
             
         }
 
