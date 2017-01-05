@@ -10,13 +10,10 @@ import UIKit
 import Foundation
 
 class StarView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    
+    
+    
+    let selectedStar = "\u{2605}"
+    let unselectedStar = "\u{2606}"
 
 }
