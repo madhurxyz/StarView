@@ -20,5 +20,8 @@ class StarView: UIView {
     
     let starFrame: CGRect
     var starArray: [UILabel]
-
+    
+    init(stars: Int, width: CGFloat) {
+        
+    }
 }
