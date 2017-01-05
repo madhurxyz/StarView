@@ -17,5 +17,8 @@ class StarView: UIView {
     var xVal: CGFloat = 0
     var stars: Int
     var height: CGFloat
+    
+    let starFrame: CGRect
+    var starArray: [UILabel]
 
 }
