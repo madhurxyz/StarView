@@ -17,7 +17,7 @@ class StarView: UIView {
     var xVal: CGFloat = 0
     var stars: Int
     var height: CGFloat
-    self.width = width * CGFloat(stars)
+    var width: CGFloat
     
     
     let starFrame: CGRect
@@ -27,6 +27,8 @@ class StarView: UIView {
         self.stars = stars
         self.height = width
         self.width = width * CGFloat(stars)
-
+        self.starFrame = CGRect(x: 10.0, y: 100.0, width: self.width, height: self.height)
+        self.starArray = []
+        
     }
 }
