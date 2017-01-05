@@ -32,6 +32,10 @@ class StarView: UIView {
         
         super.init(frame: self.starFrame)
         backgroundColor = .white
+        for _ in 0..<stars {
+            
+            
+        }
 
     }
 }
