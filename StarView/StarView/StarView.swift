@@ -22,6 +22,9 @@ class StarView: UIView {
     var starArray: [UILabel]
     
     init(stars: Int, width: CGFloat) {
-        
+        self.stars = stars
+        self.height = width
+        self.width = width * CGFloat(stars)
+
     }
 }
