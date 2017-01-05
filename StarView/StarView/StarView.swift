@@ -30,5 +30,8 @@ class StarView: UIView {
         self.starFrame = CGRect(x: 10.0, y: 100.0, width: self.width, height: self.height)
         self.starArray = []
         
+        super.init(frame: self.starFrame)
+        backgroundColor = .white
+
     }
 }
