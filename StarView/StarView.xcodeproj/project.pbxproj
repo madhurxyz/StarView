@@ -58,6 +58,7 @@
 		E09F56B11DAEB5F300B0ADAA /* StarView */ = {
 			isa = PBXGroup;
 			children = (
+				E04E74081E1E1542002A3207 /* StarView.swift */,
 				E09F56B21DAEB5F300B0ADAA /* AppDelegate.swift */,
 				E09F56B41DAEB5F300B0ADAA /* ViewController.swift */,
 				E09F56B61DAEB5F300B0ADAA /* Main.storyboard */,
@@ -65,7 +66,6 @@
 				E09F56BE1DAEB5F300B0ADAA /* LaunchScreen.storyboard */,
 				E09F56C11DAEB5F300B0ADAA /* Info.plist */,
 				E09F56B91DAEB5F300B0ADAA /* StarView.xcdatamodeld */,
-				E04E74081E1E1542002A3207 /* StarView.swift */,
 			);
 			path = StarView;
 			sourceTree = "<group>";
