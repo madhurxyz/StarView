@@ -36,6 +36,10 @@ class StarView: UIView {
             let subViewSize = CGSize(width: self.starFrame.width/CGFloat(stars), height: self.starFrame.height)
             let subViewFrame = CGRect(x: xVal, y: 0.0, width: subViewSize.width, height: subViewSize.height)
             xVal += subViewSize.width
+            let subViewLabel = UILabel(frame: subViewFrame)
+            subViewLabel.textAlignment = .center
+            subViewLabel.text = unselectedStar
+            
         }
 
     }
