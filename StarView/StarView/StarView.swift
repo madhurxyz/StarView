@@ -11,9 +11,11 @@ import Foundation
 
 class StarView: UIView {
     
-    
-    
     let selectedStar = "\u{2605}"
     let unselectedStar = "\u{2606}"
+    
+    var xVal: CGFloat = 0
+    var stars: Int
+    var height: CGFloat
 
 }
