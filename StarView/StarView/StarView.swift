@@ -46,4 +46,7 @@ class StarView: UIView {
         }
 
     }
+    func updateSubView() {
+        
+    }
 }
