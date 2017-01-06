@@ -64,6 +64,8 @@ class StarView: UIView {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         let location = touches.first?.location(in: self)
         let prevLocation = touches.first?.previousLocation(in: self)
+        let direction = location!.x - prevLocation!.x
+
         
     }
 
