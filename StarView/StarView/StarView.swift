@@ -39,7 +39,7 @@ class StarView: UIView {
             let subViewLabel = UILabel(frame: subViewFrame)
             subViewLabel.textAlignment = .center
             subViewLabel.text = unselectedStar
-            
+            self.starArray.append(subViewLabel)
         }
 
     }
