@@ -41,6 +41,8 @@ class StarView: UIView {
             subViewLabel.text = unselectedStar
             self.starArray.append(subViewLabel)
         }
+        for starLabel in self.starArray {
+        }
 
     }
 }
