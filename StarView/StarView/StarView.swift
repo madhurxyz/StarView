@@ -61,6 +61,9 @@ class StarView: UIView {
         self.starArray[starIndex].text = newStar
         updateSubView()
     }
-
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         
+    }
+
+    
 }
