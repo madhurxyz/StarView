@@ -55,6 +55,9 @@ class StarView: UIView {
         self.starArray[starIndex].text = newStar
         updateSubView()
     }
+    required init?(coder aDecoder: NSCoder) {
+        
+    }
 
         
     }
