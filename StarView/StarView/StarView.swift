@@ -42,6 +42,7 @@ class StarView: UIView {
             self.starArray.append(subViewLabel)
         }
         for starLabel in self.starArray {
+            addSubview(starLabel)
         }
 
     }
