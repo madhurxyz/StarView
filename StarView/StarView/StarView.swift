@@ -52,7 +52,8 @@ class StarView: UIView {
             addSubview(starLabel)
         }
     func updateStarLabelText(starIndex: Int, newStar: String) {
-        }
+        self.starArray[starIndex].text = newStar
+    }
 
         
     }
