@@ -48,6 +48,10 @@ class StarView: UIView {
     }
     func updateSubView() {
         self.subviews.forEach( { $0.removeFromSuperview() } )
+        for starLabel in self.starArray {
+            addSubview(starLabel)
+        }
+
         
     }
 }
