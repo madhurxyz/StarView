@@ -55,11 +55,12 @@ class StarView: UIView {
         for starLabel in self.starArray {
             addSubview(starLabel)
         }
+    }
+    
     func updateStarLabelText(starIndex: Int, newStar: String) {
         self.starArray[starIndex].text = newStar
         updateSubView()
     }
 
         
-    }
 }
