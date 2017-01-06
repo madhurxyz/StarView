@@ -46,6 +46,10 @@ class StarView: UIView {
         }
 
     }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     func updateSubView() {
         self.subviews.forEach( { $0.removeFromSuperview() } )
         for starLabel in self.starArray {
@@ -54,9 +58,6 @@ class StarView: UIView {
     func updateStarLabelText(starIndex: Int, newStar: String) {
         self.starArray[starIndex].text = newStar
         updateSubView()
-    }
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 
         
