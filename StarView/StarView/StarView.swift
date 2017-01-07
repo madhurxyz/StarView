@@ -95,6 +95,9 @@ class StarView: UIView {
                 updateStarLabelText(starIndex: 3, newStar: star)
             case 300...Int.max:
                 updateStarLabelText(starIndex: 4, newStar: star)
+            default:
+                break
+
             }
         }
 
