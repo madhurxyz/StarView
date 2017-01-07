@@ -82,7 +82,10 @@ class StarView: UIView {
             default:
                 break
             }
+        } else if direction < 0 {
+            
         }
+
     }
 
     
