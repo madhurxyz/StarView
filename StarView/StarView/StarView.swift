@@ -87,6 +87,9 @@ class StarView: UIView {
             switch Int(location!.x) {
             case Int.min..<75:
                 updateStarLabelText(starIndex: 0, newStar: star)
+            case 75..<150:
+                updateStarLabelText(starIndex: 1, newStar: star)
+
             }
         }
 
