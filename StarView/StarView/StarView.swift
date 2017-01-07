@@ -83,7 +83,9 @@ class StarView: UIView {
                 break
             }
         } else if direction < 0 {
-            
+            let star = unselectedStar
+            switch Int(location!.x) {
+            }
         }
 
     }
