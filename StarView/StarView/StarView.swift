@@ -89,7 +89,8 @@ class StarView: UIView {
                 updateStarLabelText(starIndex: 0, newStar: star)
             case 75..<150:
                 updateStarLabelText(starIndex: 1, newStar: star)
-
+            case 150..<225:
+                updateStarLabelText(starIndex: 2, newStar: star)
             }
         }
 
