@@ -66,7 +66,9 @@ class StarView: UIView {
         let prevLocation = touches.first?.previousLocation(in: self)
         let direction = location!.x - prevLocation!.x
 
-        
+        if direction > 0 {
+            
+        }
     }
 
     
