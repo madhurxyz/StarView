@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addSubview(newStarView)
         // Do any additional setup after loading the view, typically from a nib.
         
         
